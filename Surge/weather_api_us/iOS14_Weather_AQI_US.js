@@ -7,7 +7,7 @@ const aqicnToken = '4043f68c8c4693f2708249421539464d57ccf972'
 // STEP 2: 参考下方配置片段，在代理工具的配置文件中添加对应的配置。注意：script-path 后应该替换为添加 apicnToken 值后的脚本路径
 /*
 	[Script]
-	iOS14美标空气质量 = type=http-response,pattern=https://weather-data.apple.com/v1/weather/[\w-]+/-?[0-9]+\.[0-9]+/-?[0-9]+\.[0-9]+\?,requires-body=true,script-path=path/to/iOS14_Weather_AQI_US.js
+	iOS14美标空气质量 = type=http-response,pattern=https://weather-data.apple.com/v1/weather/[\w-]+/-?[0-9]+\.[0-9]+/-?[0-9]+\.[0-9]+\?,requires-body=true,script-path=https://raw.githubusercontent.com/wang01h2/Scripts/main/Surge/weather_api_us/iOS14_Weather_AQI_US.js
 	[MITM]
 	hostname = weather-data.apple.com
 */
