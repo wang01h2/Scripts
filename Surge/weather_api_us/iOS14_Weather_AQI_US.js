@@ -8,14 +8,13 @@ const aqicnToken = 'cdad07de161d1be8f6342e97e477155941bb6e3d'
 /*
 	[Script]
 	iOS14美标空气质量 = type=http-response,pattern=https://weather-data.apple.com/v1/weather/[\w-]+/-?[0-9]+\.[0-9]+/-?[0-9]+\.[0-9]+\?,requires-body=true,script-path=path/to/iOS14_Weather_AQI_US.js
-
 	[MITM]
 	hostname = weather-data.apple.com
 */
 
 const AirQualityStandard = {
-	CN: 'HJ6332012.2111',
-	US: 'EPA_NowCast.2111'
+	CN: 'HJ6332012.2113',
+	US: 'EPA_NowCast.2113'
 }
 
 const AirQualityLevel = {
