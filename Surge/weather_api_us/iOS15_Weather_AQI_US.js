@@ -18,7 +18,7 @@ const aqicnToken = $.getdata($.token) || 'cdad07de161d1be8f6342e97e477155941bb6e
 
 const AirQualityStandard = {
 	CN: 'HJ6332012.2113',
-	US: 'EPA_NowCast.2115'
+	US: 'EPA_NowCast.2113'
 }
 
 const AirQualityLevel = {
