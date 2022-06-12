@@ -1,0 +1,10 @@
+#此为AppleTV_list, 不定期更新
+PROCESS-NAME,AppleTV+List
+DOMAIN,vod-ap2-aoc.tv.apple.com
+DOMAIN,vod-ak-aoc.tv.apple.com
+DOMAIN,mzstatic.com
+DOMAIN,tv.apple.com
+DOMAIN,itunes.apple.com
+
+
+
