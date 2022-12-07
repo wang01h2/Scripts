@@ -1,12 +1,12 @@
+#!name=APP开屏广告拦截,APP启动广告拦截！
+#!desc= APP开屏广告拦截,APP启动广告拦截！
+
 # >  /*  APP开屏广告拦截,APP启动广告拦截！
 # >  某些APP要清除缓存或者重新安装APP,拦截广告才会生效！
 # >  更新时间  2022.11.05
 # >  */
-#!name=APP开屏广告拦截,APP启动广告拦截！
-#!desc= APP开屏广告拦截,APP启动广告拦截！
 
 [URL Rewrite]
-
 # >微信公众号文章下方广告
 ^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_complaint - reject
 ^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ - reject-img
