@@ -317,7 +317,7 @@ https://zone.guiderank-app.com/guiderank-web/app/ad/listLaunchADByCity.do - reje
 ^https?:\/\/jad-api\.jin10\.com\/ad - reject
 
 [MITM]
-hostname = api.pinduoduo.com, acs.m.taobao.com, ssgw.alicdn.com, gab.122.gov.cn, m*.amap.com, pcvideoyd.titan.mgtv.com, mp.weixin.qq.com, gw.kaola.com
+hostname = %APPEND% api.pinduoduo.com, acs.m.taobao.com, ssgw.alicdn.com, gab.122.gov.cn, m*.amap.com, pcvideoyd.titan.mgtv.com, mp.weixin.qq.com, gw.kaola.com
 , *.bdstatic.com, business-cdn.shouji.sogou.com, *.tieba.baidu.com, www.zhihu.com, api.zhihu.com, appcloud2.zhihu.com, m.client.10010.com, app.variflight.com
 , api.douban.com, grpc.biliapi.net, *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, *.xima*.*, *.xmcdn.*, pages.xiaohongshu.com, www.xiaohongshu.com, edith.xiaohongshu.com
 , ossgw.alicdn.com, img.alicdn.com, gw.alicdn.com, heic.alicdn.com, *api.weibo*,sdkapp.uve.weibo.com, new.vip.weibo.cn, adimg.uve.weibo.com, *.pstatp.com.*, sf6-be-pack.pglstatp-toutiao.com
