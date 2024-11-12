@@ -1,0 +1,9 @@
+#!name=Google搜索重定向
+#!desc= Google
+
+[URL Rewrite]
+^https?://(www.)?g.cn https://www.google.com 302
+^https?://(www.)?google.cn https://www.google.com 302
+
+[MITM]
+hostname = www.google.cn, www.g.cn
